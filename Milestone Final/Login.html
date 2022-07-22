@@ -1,0 +1,54 @@
+<!-- Prava Karki --> 
+<!doctype html> 
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>login | Register</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">
+         <img id="img1" src="image4.JPG" alt="Myimages" > </a>
+         <div> <a href="index.html">HOME</a>    &nbsp;      <a href="aboutus.html">ABOUTUS</a>      &nbsp;     <a href="menu.html">MENU</a>     &nbsp;       <a href="Login.html">ORDERNOW </a>  
+         </div>
+      </nav>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg">
+               <h1 class="my-5"><u>Registration</u></h1>
+               <div class="row">
+                  <input type="text" name="Name" id="Name" class="form-field" placeholder="Name" onkeyup="validateName(this.value);">
+               </div>
+               <div class="errorName">
+                  <span class="row error">Name cannot be in Capital letter</span>
+               </div>
+               <div class="row">
+                  <input type="text" name="Address" id="address" class="form-field" placeholder=" Address" onkeyup="validateAddress(this.value);">
+               </div>
+               <div class="errorAddress">
+                  <span class="row error">Address should contain space</span>
+               </div>
+               <div class="row">
+                  <input type="text" name="EmailAddress" id="emailaddress" class="form-field" placeholder="Email Address" onkeyup="validateEmailAddress(this.value);">
+               </div>
+               <div class="errorEmailAddress">
+                  <span class="row error">Email must be small.</span>
+               </div>
+               <div class="row">
+                  <input type="text" name="Phonenumber" id="phonenumber" class="form-field" placeholder="Phone Number" onkeyup="validatePhoneNumber(this.value);">
+               </div>
+               <div class="errorPhonenumber">
+                  <span class="row error">Phone number should be 10 digit.</span>
+               </div>
+               <div class="row">
+                  <button class="button button-enabled" id="ORDERNOW" >ORDERNOW</button>
+               </div>
+               <script src="script.js"></script>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

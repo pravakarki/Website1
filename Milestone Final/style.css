@@ -1,0 +1,192 @@
+.center1{ margin-left: 113px; }
+ .center2{ margin-left: 205px; } 
+ .centerLogin{ margin-left: 242px; } 
+ .space{ margin-top: 100px; } 
+ .moveback{ margin-left: -15px; } 
+ .maveright{ margin-right: -5px; } 
+ .middle{ margin-top: 77px; }
+
+ 
+         h1{
+         background-color:lightcoral;
+         }
+         h2{
+         background-color:rgb(219, 146, 253);
+         }
+         h3{
+         background-color:rgb(163, 233, 144);
+         }
+         h4{
+         background-color:lightcoral;
+         }
+         h5{
+            background-color:yellow
+            }
+
+
+         
+         
+         *{
+         box-sizing: border-box;
+         }
+         /* Create three equal columns that floats next to each other */
+         .column {
+         float: left;
+         width: 33.33%;
+         padding: 15px;
+         height: 300px; /* Should be removed. Only for demonstration */
+         }
+         /* Clear floats after the columns */
+         .row:after {
+         content: "";
+         display: table;
+         clear: both;
+         }
+         
+body {
+background-color:lightskyblue; 
+
+}
+a{
+    color: rgb(53, 157, 222);
+    
+    }
+    .img1{
+        width: 100%;
+        
+        }
+        .img2{
+            width: 100%;
+            
+            }
+        .img3{
+             width: 100%;
+                
+                }
+        .img4{
+             width: 15%;
+                    
+             }
+         .img5{
+         width: 15%;
+                        
+          }
+        .img6{
+              width: 5%;
+                            
+    }
+        .img7{
+             width: 5%;
+                                
+              }
+         .img8{
+              width: 15%;
+                                    
+             }
+        .img9{
+              width: 15%;
+                                        
+                  }
+         .img10{
+                  width: 15%;
+                                            
+                 }
+        .img11{
+          width: 15%;
+                                                
+                     }
+      .img12{
+          width: 15%;
+                                                              
+            }  
+    
+            .img13{
+                width: 15%;
+                                                      
+                           }
+          .img14{
+         width: 15%;
+                                                                  
+                     }
+                .img15{
+         width: 15%;
+                                                                              
+           }
+           img[alt='Myimage']{
+            width: 15%;
+            
+            }         
+            .errorName
+            {
+               display:none;
+               margin:5px 5px 5px 30px;
+            }
+            .errorAddress
+            {
+               display:none;
+               margin:5px 5px 5px 30px;
+            }
+            .errorEmailAddress
+            {
+               display:none;
+               margin:5px 5px 5px 30px;
+            }
+            .errorPhonenumber
+            {
+               display:none;
+               margin:5px 5px 5px 30px;
+            }
+            .row
+            {
+               display:block;
+            }
+            .error
+            {
+               color:crimson;
+            }
+            .button-enabled:hover{
+               color: #007bff;
+            background-color: lightblue;
+            text-align: center;
+            font-weight:bold;
+              
+            }
+           
+            .form-field
+            {
+               display:inline;
+               padding:10px;
+               width:90%;
+               margin:15px 15px 15px 30px;
+               border-radius:5px;
+            }
+           
+           
+            .button-disabled
+            {
+               color: rgb(113, 212, 232);
+            background-color: #2e90e6;
+            border-color: #2e83ce;
+            text-align: center;
+            cursor:default;
+            }
+            .button-enabled
+            {
+               color: white;
+            background-color: #007bff;
+            border-color: #007bff;
+            text-align: center;
+            cursor: pointer;
+            }
+            button
+            {
+               margin-left:45%;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            }
+           
